@@ -26,7 +26,8 @@ function enableVideo() {
 function loadSimpleWebRTC() {
   var script = document.createElement("script");
   //script.src = "https://github.com/simplewebrtc/SimpleWebRTC/tree/gh-pages/latest-v3.js";
-  script.src = "https://simplewebrtc.com/latest-v3.js";
+  //script.src = "https://simplewebrtc.com/latest-v3.js";
+  script.src="./static/js/latest-v3.js";
   document.head.appendChild(script);
 //SimpleWebRTC
   script.onload = function() {
