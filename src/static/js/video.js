@@ -27,9 +27,9 @@ function loadSimpleWebRTC() {
   var script = document.createElement("script");
   script.src = "https://github.com/simplewebrtc/SimpleWebRTC/tree/gh-pages/latest-v3.js";
   document.head.appendChild(script);
-
+//SimpleWebRTC
   script.onload = function() {
-    var webrtc = new SimpleWebRTC({
+    var webrtc = new WebRTC({
       localVideoEl: "selfVideo",
       // the id/element dom element that will hold remote videos
       remoteVideosEl: "",
